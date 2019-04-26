@@ -39,3 +39,9 @@ V1.3.213	http://update.peiluyou.com/conf/miner_plus_test/packages/thunder-miner-
 V1.3.215	http://update.peiluyou.com/conf/miner_plus_test/packages/thunder-miner-app_V1.3.215_meson.ipk
 V1.3.218	http://update.peiluyou.com/conf/miner_plus_test/packages/thunder-miner-app_V1.3.218_meson.ipk
 V1.3.350	http://update.peiluyou.com/conf/miner_plus_test/packages/thunder-miner-app_V1.3.350_meson.ipk
+
+
+# 固件降级升级
+wget http://update.peiluyou.com/conf/miner_plus/packages/thunder-miner-app_V****_meson.ipk
+opkg install --force-downgrade thunder-miner-app_V*****_meson.ipk
+reboot
